@@ -1,0 +1,24 @@
+{
+    "name": "domino91/downloadGithub",
+    "description": "Script to download && analyzing repos from GitHub",
+    "type": "script",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Zawadzki",
+            "email": "dominik.zawadzki91@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/config": "^4.3",
+        "symfony/console": "^4.3",
+        "psr/log": "^1.1",
+        "symfony/orm-pack": "^1.0"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {"DownloadGithub\\": "src/"}
+    }
+}
